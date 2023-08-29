@@ -1,1 +1,63 @@
 /* your code here */
+.product{
+	display:flex;
+}
+.variant>ul{
+	display:flex;
+	list-style-type:none;
+	
+	padding:20px;
+}
+.photo-album>ul{
+	display:flex;
+	list-style-type:none;
+	margin-top:100px;
+	padding:20px;
+	
+}
+.photo-album>ul>li{
+	width:100px;
+	height:60px;
+	border:1px solid grey;
+	margin:2px;
+}
+.img-apple{
+    width:250px;
+	margin:-50px;
+   margin-top:8px;
+	
+}
+.product__photo{
+	background:radial-gradient(white,#aae629);
+	margin-top:20px;
+	margin-left:40px;
+	width:250px;
+	height:320px;
+	
+}
+.buttn{
+	height:30px;
+	position:absolute;
+     width:120vw;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	margin-bottom:30px;
+	
+	
+
+	
+	
+}
+button{
+	background-color:#fe3f40;
+	border:none;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+}
+.price{
+	color:red;
+	font-size:30px;
+	
+}
